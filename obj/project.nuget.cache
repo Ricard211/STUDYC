@@ -1,21 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "fyTGmmdP0R/5v9E75987MaeiFS8jcgsa60QNGChXVZIFNi2YSR/5MeXH1yEDqedNSMlMBY7h9SXZQTm0VC5HyQ==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\serzh\\OneDrive\\Desktop\\HelloWorld\\HelloWorld.csproj",
+  "dgSpecHash": "VPFxti/NzavhcrDRst73Rb10/lbAirdZaC5bjXuwSmJAHPXX075DMZTfon49T/ng/2Lj26GMH8kpd9drQOXB8Q==",
+  "success": false,
+  "projectFilePath": "/Users/ricard21/Documents/GitHub/STUDYC/HelloWorld.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\serzh\\.nuget\\packages\\csvhelper\\30.0.0\\csvhelper.30.0.0.nupkg.sha512",
-    "C:\\Users\\serzh\\.nuget\\packages\\linqtocsv\\1.5.0\\linqtocsv.1.5.0.nupkg.sha512"
+    "/Users/ricard21/.nuget/packages/csvhelper/30.0.0/csvhelper.30.0.0.nupkg.sha512",
+    "/Users/ricard21/.nuget/packages/linqtocsv/1.5.0/linqtocsv.1.5.0.nupkg.sha512"
   ],
   "logs": [
     {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'LINQtoCSV 1.5.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package LINQtoCSV 1.5.0 is not compatible with net7.0 (.NETCoreApp,Version=v7.0). Package LINQtoCSV 1.5.0 supports: net35 (.NETFramework,Version=v3.5)",
       "libraryId": "LINQtoCSV",
       "targetGraphs": [
-        "net7.0"
+        ".NETCoreApp,Version=v7.0"
       ]
     }
   ]

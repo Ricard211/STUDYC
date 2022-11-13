@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\serzh\\OneDrive\\Desktop\\HelloWorld\\HelloWorld.csproj": {}
+    "/Users/ricard21/Documents/GitHub/STUDYC/HelloWorld.csproj": {}
   },
   "projects": {
-    "C:\\Users\\serzh\\OneDrive\\Desktop\\HelloWorld\\HelloWorld.csproj": {
+    "/Users/ricard21/Documents/GitHub/STUDYC/HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\serzh\\OneDrive\\Desktop\\HelloWorld\\HelloWorld.csproj",
+        "projectUniqueName": "/Users/ricard21/Documents/GitHub/STUDYC/HelloWorld.csproj",
         "projectName": "HelloWorld",
-        "projectPath": "C:\\Users\\serzh\\OneDrive\\Desktop\\HelloWorld\\HelloWorld.csproj",
-        "packagesPath": "C:\\Users\\serzh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\serzh\\OneDrive\\Desktop\\HelloWorld\\obj\\",
+        "projectPath": "/Users/ricard21/Documents/GitHub/STUDYC/HelloWorld.csproj",
+        "packagesPath": "/Users/ricard21/.nuget/packages/",
+        "outputPath": "/Users/ricard21/Documents/GitHub/STUDYC/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\serzh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/ricard21/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -24,7 +24,6 @@
         },
         "frameworks": {
           "net7.0": {
-            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -36,7 +35,6 @@
       },
       "frameworks": {
         "net7.0": {
-          "targetAlias": "net7.0",
           "dependencies": {
             "CsvHelper": {
               "target": "Package",
@@ -47,23 +45,7 @@
               "version": "[1.5.0, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
         }
       }
     }

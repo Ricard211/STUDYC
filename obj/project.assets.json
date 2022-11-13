@@ -1,28 +1,18 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    ".NETCoreApp,Version=v7.0": {
       "CsvHelper/30.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/CsvHelper.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/CsvHelper.dll": {}
         },
         "runtime": {
-          "lib/net6.0/CsvHelper.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/CsvHelper.dll": {}
         }
       },
       "LINQtoCSV/1.5.0": {
-        "type": "package",
-        "compile": {
-          "lib/net35/LINQtoCSV.dll": {}
-        },
-        "runtime": {
-          "lib/net35/LINQtoCSV.dll": {}
-        }
+        "type": "package"
       }
     }
   },
@@ -65,25 +55,25 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    ".NETCoreApp,Version=v7.0": [
       "CsvHelper >= 30.0.0",
       "LinqToCsv >= 1.5.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\serzh\\.nuget\\packages\\": {}
+    "/Users/ricard21/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\serzh\\OneDrive\\Desktop\\HelloWorld\\HelloWorld.csproj",
+      "projectUniqueName": "/Users/ricard21/Documents/GitHub/STUDYC/HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "C:\\Users\\serzh\\OneDrive\\Desktop\\HelloWorld\\HelloWorld.csproj",
-      "packagesPath": "C:\\Users\\serzh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\serzh\\OneDrive\\Desktop\\HelloWorld\\obj\\",
+      "projectPath": "/Users/ricard21/Documents/GitHub/STUDYC/HelloWorld.csproj",
+      "packagesPath": "/Users/ricard21/.nuget/packages/",
+      "outputPath": "/Users/ricard21/Documents/GitHub/STUDYC/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\serzh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/ricard21/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -93,7 +83,6 @@
       },
       "frameworks": {
         "net7.0": {
-          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -105,7 +94,6 @@
     },
     "frameworks": {
       "net7.0": {
-        "targetAlias": "net7.0",
         "dependencies": {
           "CsvHelper": {
             "target": "Package",
@@ -116,35 +104,18 @@
             "version": "[1.5.0, )"
           }
         },
-        "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48",
-          "net481"
-        ],
-        "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
     {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'LINQtoCSV 1.5.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package LINQtoCSV 1.5.0 is not compatible with net7.0 (.NETCoreApp,Version=v7.0). Package LINQtoCSV 1.5.0 supports: net35 (.NETFramework,Version=v3.5)",
       "libraryId": "LINQtoCSV",
       "targetGraphs": [
-        "net7.0"
+        ".NETCoreApp,Version=v7.0"
       ]
     }
   ]
